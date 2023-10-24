@@ -11,8 +11,8 @@ Para integrar o Megamil SDK em seu site, siga estas simples instruções:
 Adicione os seguintes links ao cabeçalho do seu documento HTML:
 
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.css">
-    <script src="https://raw.githubusercontent.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.js" 
+<link rel="stylesheet" href="https://cdn.rawgit.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.css">
+    <script src="https://cdn.rawgit.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.js" 
       data-sdk="megamil" 
       data-sdk-token="SEU-TOKEN" 
       data-placeholder="Faça uma pergunta"
