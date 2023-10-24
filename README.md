@@ -11,18 +11,19 @@ Para integrar o Megamil SDK em seu site, siga estas simples instruções:
 Adicione os seguintes links ao cabeçalho do seu documento HTML:
 
 ```html
-<link rel="stylesheet" href="caminho/para/seu/assets/megamil_sdk.css">
-<script src="caminho/para/seu/assets/megamil_sdk.js"
-        data-sdk="megamil"
-        data-sdk-token="SEU-TOKEN"
-        data-placeholder="Faça uma pergunta"
-        data-error-message-default="Desculpe, tivemos um problema"
-        data-unicode-icon-send="&#x1F680;"
-        data-unicode-icon-open="&#x1F680;"
-        data-unicode-icon-close="&#x58;"></script>
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.css">
+    <script src="https://raw.githubusercontent.com/Megamil/megamil_sdk_answer_web/main/assets/megamil_sdk.js" 
+      data-sdk="megamil" 
+      data-sdk-token="SEU-TOKEN" 
+      data-placeholder="Faça uma pergunta"
+      data-error-message-default="Desculpe, tivemos um problema"
+      data-unicode-icon-send="&#x1F680;"
+      data-unicode-icon-open="&#x1F680;"
+      data-unicode-icon-close="&#x58;"></script>
+  </head>
 ```
 
-Lembre-se de substituir `"caminho/para/seu/assets/"` pelo caminho real para os arquivos `megamil_sdk.css` e `megamil_sdk.js` em seu projeto.
+Se preferir faço o download dos arquivos `megamil_sdk.css` e `megamil_sdk.js` em seu projeto e aponte para eles localmente, porém pode não estar sempre com a última atualização ativa.
 
 ### Passo 2: Configuração dos Atributos
 
@@ -40,4 +41,7 @@ Certifique-se de configurar os atributos necessários no script:
 
 Com esses passos simples, você terá uma experiência de chat totalmente funcional em seu site, proporcionando uma interação eficaz com os visitantes.
 
-REPO: https://github.com/Megamil/megamil_sdk_answer_web.git
+## Resultado
+<div style="overflow: hidden; white-space: nowrap;">
+    <img src="prints/web_example.png" width="200">
+</div>
